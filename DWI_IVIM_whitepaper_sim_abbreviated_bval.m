@@ -103,7 +103,7 @@ xlabel('SNR'); ylabel('Dispersion Error D (%)');ylim([-20 20]);
 legend(bvalue_C{:,2})
 
 % find minimum SNR for error within 20% (i.e. [bias^2 + disp^2]^.5 )
-SNRcut=.1;
+SNRcut=.2;
 min_SNR_fp_org=zeros(1,length(pf));
 min_SNR_D_org=zeros(1,length(pf));
 for i=1:length(pf) % for loop over each organ
